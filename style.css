@@ -10,10 +10,11 @@ body {
 
 /* Header */
 header {
-  background-color: #ff6f61;
-  color: white;
+  background-color: #000000;  /* black header */
+  color: white;               /* white text for contrast */
   padding: 30px 10px;
 }
+
 
 header h1 {
   margin: 0;
