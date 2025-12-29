@@ -1,4 +1,7 @@
-preloved-shop
+preloved-shop/
  ├─ index.html
  ├─ style.css
  └─ images/
+      ├─ item1.jpg
+      ├─ item2.jpg
+      └─ item3.jpg
