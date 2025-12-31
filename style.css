@@ -1,9 +1,10 @@
 /* ---------------- Body & Fonts ---------------- */
 body {
-  font-family: 'Poppins', sans-serif;  /* body text */
   margin: 0;
-  background-color: #f0f0f0;          /* soft grey background */
-  color: #333333;                     /* dark grey text */
+  font-family: 'Inter', sans-serif;
+  background: #f2f2f2;
+  color: #222;
+
   text-align: center;
 }
 
