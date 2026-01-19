@@ -3,44 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fareed Barber Services</title>
+  <title>Fareed n Raif Barber Services</title>
   <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
   <link rel="stylesheet" href="style.css">
-  
 </head>
+
 <body>
 
 <header>
-  <h1>Fareed Barber Services</h1>
-  <p>Stylish haircuts by Fareed. Book via WhatsApp!</p>
-  <nav>
-    <a href="index.html">Preloved Shop</a>
-  </nav>
+  <h1>Aban Kustom Barber Services</h1>
+  <p>Quality haircuts by Fareed and Raif. Book a slot below via email.</p>
+  <a href="index.html" class="btn">Back to Shop</a>
 </header>
 
 <main>
-  <div class="service">
-    <img src="images/barber1.jpg" alt="Men's Haircut" width="250">
-    <h2><i class="fa-solid fa-scissors"></i> Men’s Haircut</h2>
-
-    <p>RM30 – 30 minutes</p>
-    <a href="https://wa.me/60189507306" class="btn">Book via WhatsApp</a>
-  </div>
-
-  <div class="service">
-    <img src="images/barber2.jpg" alt="Beard Trim" width="250">
-   <h2><i class="fa-solid fa-user"></i> Beard Trim</h2>
-
-
-    <p>RM20 – 15 minutes</p>
-    <a href="https://wa.me/60189507306" class="btn">Book via WhatsApp</a>
+  <div class="item">
+    <h2>Men's Haircut</h2>
+    <p>RM25 – Classic and modern styles</p>
+    <a href="#booking" class="btn">Email to Book</a>
   </div>
 </main>
 
+<!-- BARBER BOOKING FORM -->
+<section id="booking" style="padding: 40px; text-align: center;">
+  <h2>Book Your Slot via Email</h2>
+  <p>Fill in your details and we’ll get back to you.</p>
+
+  <form action="https://formspree.io/f/xxxxabcd" method="POST" style="max-width: 400px; margin: auto;">
+    <input type="hidden" name="_subject" value="New Barber Booking">
+
+    <input type="text" name="name" placeholder="Your Name" required style="width:100%; padding:10px; margin-bottom:10px;">
+    <input type="email" name="email" placeholder="Your Email" required style="width:100%; padding:10px; margin-bottom:10px;">
+    
+    <input type="date" name="date" required style="width:100%; padding:10px; margin-bottom:10px;">
+    <input type="time" name="time" required style="width:100%; padding:10px; margin-bottom:10px;">
+
+    <textarea name="message" placeholder="Service / Notes" style="width:100%; padding:10px; margin-bottom:15px;"></textarea>
+
+    <button type="submit" class="btn">Submit</button>
+  </form>
+</section>
+<!-- END BOOKING SECTION -->
+
 <footer>
-  <p>© 2025 Fareed Barber Services</p>
+  <p>© 2026 Aban Kustom Barber Services</p>
 </footer>
 
 </body>
