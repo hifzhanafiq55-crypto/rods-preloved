@@ -4,49 +4,69 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rod's Preloved Shop</title>
+
   <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header>
   <h1>Rod's Preloved Shop</h1>
-  <p>The finest quality preloved items you can buy with the best prices. DM to buy via WhatsApp!</p>
+  <p>The finest quality preloved items you can buy with the best prices.</p>
   <a href="barber.html" class="btn">Barber Services</a>
 </header>
 
 <main>
   <div class="item">
     <img src="images/item1.jpg" alt="Shirt">
- <h2><i class="fa-solid fa-shirt"></i> Graphic Tee</h2>
-
-
-
+    <h2><i class="fa-solid fa-shirt"></i> Graphic Tee</h2>
     <p>RM50 – Good condition</p>
-    <a href="https://wa.me/60196144605" class="btn">WhatsApp to Buy</a>
+    <a href="#booking" class="btn">Email to Book</a>
   </div>
 
   <div class="item">
     <img src="images/item2.jpg" alt="Sneakers">
     <h2><i class="fa-solid fa-shoe-prints"></i> Nike Air</h2>
-
     <p>RM80 – Like new</p>
-    <a href="https://wa.me/60196144605" class="btn">WhatsApp to Buy</a>
+    <a href="#booking" class="btn">Email to Book</a>
   </div>
 
   <div class="item">
     <img src="images/item3.jpg" alt="Bag">
     <h2><i class="fa-solid fa-bag-shopping"></i> Sling Bag</h2>
-
     <p>RM20 – Very good condition</p>
-    <a href="https://wa.me/60196144605" class="btn">WhatsApp to Buy</a>
+    <a href="#booking" class="btn">Email to Book</a>
   </div>
 </main>
 
+<!-- CENTRAL BOOKING / EMAIL FORM -->
+<section id="booking" style="padding: 40px; text-align: center;">
+  <h2>Book / Enquiry via Email</h2>
+  <p>Fill in the form and we will contact you via email.</p>
+
+  <form action="https://formspree.io/f/xxxxabcd" method="POST" style="max-width: 400px; margin: auto;">
+
+    <input type="hidden" name="_subject" value="New Booking / Enquiry">
+
+    <input type="text" name="name" placeholder="Your Name" required style="width:100%; padding:10px; margin-bottom:10px;">
+
+    <input type="email" name="email" placeholder="Your Email" required style="width:100%; padding:10px; margin-bottom:10px;">
+
+    <input type="date" name="date" required style="width:100%; padding:10px; margin-bottom:10px;">
+
+    <input type="time" name="time" required style="width:100%; padding:10px; margin-bottom:10px;">
+
+    <textarea name="message" placeholder="Item / Service details" style="width:100%; padding:10px; margin-bottom:15px;"></textarea>
+
+    <button type="submit" class="btn">Submit</button>
+  </form>
+</section>
+<!-- END BOOKING SECTION -->
+
 <footer>
-  <p>© 2025 Rod's Preloved Shop</p>
+  <p>© 2026 Rod's Preloved Shop</p>
 </footer>
 
 </body>
